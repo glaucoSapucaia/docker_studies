@@ -77,3 +77,8 @@ remove container em execução
 ## Multiplas portas paralelas
 
 ![alt text](asset/image-27.png)
+
+## cp
+
+Copia arquivos: local -> container ou container -> local
+![alt text](asset/image-37.png)
