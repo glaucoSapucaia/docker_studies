@@ -8,6 +8,11 @@
 Monta imagem indicada
 ![alt text](asset/image-19.png)
 
+- -t
+Monta imagem com nome e tag | nome:tag
+![alt text](asset/image-30.png)
+![alt text](asset/image-31.png)
+
 ## image
 
 - ls
@@ -25,3 +30,10 @@ Ao alterar a aplicação, é necessário remontar a imagem para efetivar as alte
 ![alt text](asset/image-23.png)
 ![alt text](asset/image-24.png)
 ![alt text](asset/image-25.png)
+
+## tag "id" - nomeando imagens e tags
+
+TAG -> indica a "versão" da imagem podendo ser usada assim: docker pull nome_imagem:tag_imagem
+
+![alt text](asset/image-28.png)
+![alt text](asset/image-29.png)
