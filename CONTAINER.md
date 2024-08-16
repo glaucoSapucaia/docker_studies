@@ -82,3 +82,8 @@ remove container em execução
 
 Copia arquivos: local -> container ou container -> local
 ![alt text](asset/image-37.png)
+
+## top "container"
+
+Exibe informações de execução
+![alt text](asset/image-38.png)
