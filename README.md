@@ -22,3 +22,9 @@ Estudos com Docker
 Remove containers, imagens e networks não utilizadas
 
 ![alt text](asset/image-35.png)
+
+## stats
+
+Mostra dados quanto aos processos em andamentos, incoluindo recursos utilizados
+![alt text](asset/image-40.png)
+![alt text](asset/image-41.png)
