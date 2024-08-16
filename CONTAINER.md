@@ -15,8 +15,9 @@ Executa container em segundo plano, liberando terminal
 ![alt text](asset/image-8.png)
 
 - -p
-Indica portas do container | porta_container:porta_local
+Indica portas do container | porta_local:porta_container
 ![alt text](asset/image-9.png)
+![alt text](asset/image-10.png)
 
 ## ps
 
@@ -32,7 +33,12 @@ Exibe todos os containers já executados
 Finaliza container e sai do terminal interno
 ![alt text](asset/image-5.png)
 
-## stop "nome"
+## stop "id ou nome"
 
 Finaliza container
 ![alt text](asset/image-7.png)
+
+## start "id ou nome"
+
+Reinicia um container já utilizado
+![alt text](asset/image-11.png)
