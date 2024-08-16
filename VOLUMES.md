@@ -25,3 +25,19 @@ volume listado no docker inspect
 o diretorio deve respeita o indicado na camada WORKDIR do Dockerfile
 ![alt text](asset/image-55.png)
 ![alt text](asset/image-56.png)
+
+## Bind mount
+
+Possibilita persistir dados em tempo real
+![alt text](asset/image-57.png)
+
+- docker run -v diretorio_local:diretorio_container
+![alt text](asset/image-58.png)
+
+- erro com permissões
+![alt text](asset/image-59.png)
+execute o /bin/bash do container
+![alt text](asset/image-60.png)
+verifique e altere as permissoes
+![alt text](asset/image-61.png)
+![alt text](asset/image-62.png)
