@@ -37,3 +37,14 @@ TAG -> indica a "versão" da imagem podendo ser usada assim: docker pull nome_im
 
 ![alt text](asset/image-28.png)
 ![alt text](asset/image-29.png)
+
+## rmi "nome ou id"
+
+Remove imagem  
+Caso a imagem tenha sido usada em um container, precisamos forçar a remoção
+
+![alt text](asset/image-33.png)
+
+- -f
+Força a remoção de uma imagem
+![alt text](asset/image-34.png)
