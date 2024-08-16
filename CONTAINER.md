@@ -56,3 +56,12 @@ Verificando e fazendo manutenção em containers
 - -f
 Execução em tempo real de logs
 ![alt text](asset/image-14.png)
+
+## rm "id ou nome"
+
+Remove containers
+![alt text](asset/image-16.png)
+
+- -f
+remove container em execução
+![alt text](asset/image-17.png)
