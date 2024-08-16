@@ -65,3 +65,7 @@ Remove containers
 - -f
 remove container em execução
 ![alt text](asset/image-17.png)
+
+## Multiplas portas paralelas
+
+![alt text](asset/image-27.png)
