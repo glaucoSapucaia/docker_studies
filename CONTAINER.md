@@ -7,8 +7,12 @@
 ## run
 
 - -it
-Continua execução do container e acessa seu terminal
+Continua execução do container e acessa seu terminal iterativo
 ![alt text](asset/image-3.png)
+
+- -i
+Reinicia container no modo iterativo (terminal interno)
+![alt text](asset/image-32.png)
 
 - -d
 Executa container em segundo plano, liberando terminal
