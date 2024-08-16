@@ -87,3 +87,8 @@ Copia arquivos: local -> container ou container -> local
 
 Exibe informações de execução
 ![alt text](asset/image-38.png)
+
+## inspect "container"
+
+Mostra dados de configuração
+![alt text](asset/image-39.png)
