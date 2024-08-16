@@ -16,3 +16,9 @@ Estudos com Docker
 ## Camadas Dockerfile
 
 ![alt text](asset/image-26.png)
+
+## system prune
+
+Remove containers, imagens e networks não utilizadas
+
+![alt text](asset/image-35.png)

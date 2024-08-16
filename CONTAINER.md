@@ -27,6 +27,10 @@ Indica portas do container | porta_local:porta_container
 Nomeia um container
 ![alt text](asset/image-12.png)
 
+- --rm
+Remove container após sua parada
+![alt text](asset/image-36.png)
+
 ## ps
 
 Exibe containers em execução
