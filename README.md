@@ -12,3 +12,7 @@ Estudos com Docker
 
 ![alt text](asset/image.png)
 ![alt text](asset/image-1.png)
+
+## Camadas Dockerfile
+
+![alt text](asset/image-26.png)

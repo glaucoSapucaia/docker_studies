@@ -1,5 +1,6 @@
 # imagem de referencia
-FROM node
+# :14 -> versão indicada
+FROM node:14
 
 # diretorio da aplicação no container
 WORKDIR /app
