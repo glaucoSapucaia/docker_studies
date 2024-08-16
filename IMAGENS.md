@@ -48,3 +48,23 @@ Caso a imagem tenha sido usada em um container, precisamos forçar a remoção
 - -f
 Força a remoção de uma imagem
 ![alt text](asset/image-34.png)
+
+## upload de imagens
+
+- docker login | logout
+Faça o login em sua conta
+![alt text](asset/image-42.png)
+![alt text](asset/image-43.png)
+
+- repositorio
+crie um repositorio no docker hub
+![alt text](asset/image-44.png)
+
+- build
+a imagem deve ter o mesmo nome do repositorio
+![alt text](asset/image-45.png)
+
+- push "imagem"
+Faz o upload de uma imagem
+![alt text](asset/image-46.png)
+![alt text](asset/image-47.png)
