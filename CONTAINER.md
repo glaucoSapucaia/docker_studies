@@ -19,6 +19,10 @@ Indica portas do container | porta_local:porta_container
 ![alt text](asset/image-9.png)
 ![alt text](asset/image-10.png)
 
+- --name
+Nomeia um container
+![alt text](asset/image-12.png)
+
 ## ps
 
 Exibe containers em execução
@@ -42,3 +46,13 @@ Finaliza container
 
 Reinicia um container já utilizado
 ![alt text](asset/image-11.png)
+
+## logs
+
+Verificando e fazendo manutenção em containers
+![alt text](asset/image-13.png)
+![alt text](asset/image-15.png)
+
+- -f
+Execução em tempo real de logs
+![alt text](asset/image-14.png)
