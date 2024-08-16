@@ -18,3 +18,10 @@ Lista imagens disponiveis
 
 ![alt text](asset/image-21.png)
 ![alt text](asset/image-22.png)
+
+## Alterando aplicação
+
+Ao alterar a aplicação, é necessário remontar a imagem para efetivar as alterações
+![alt text](asset/image-23.png)
+![alt text](asset/image-24.png)
+![alt text](asset/image-25.png)

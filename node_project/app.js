@@ -8,7 +8,7 @@ const port = 3000
 
 // get para route principal
 app.get('/', (req, res) => {
-    res.send('Imagen node/express ON!')
+    res.send('Imagen node/express ON! | Rebuild com essa nova mensagem')
 })
 
 // indicando porta utilizada
