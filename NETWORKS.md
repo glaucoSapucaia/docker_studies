@@ -12,3 +12,7 @@ lista as networks
 cria uma rede | use -d para indicar o driver
 ![alt text](asset/image-77.png)
 ![alt text](asset/image-78.png)
+
+- rm "nome"
+remove uma rede
+![alt text](asset/image-79.png)
