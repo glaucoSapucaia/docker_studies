@@ -28,3 +28,10 @@ executa compose em segundo plano
 ## Variaveis de ambiente
 
 ![alt text](asset/image-10.png)
+
+## networks
+
+![alt text](asset/image-11.png)
+![alt text](asset/image-12.png)
+![alt text](asset/image-13.png)
+![alt text](asset/image-14.png)
