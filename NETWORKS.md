@@ -13,6 +13,10 @@ cria uma rede | use -d para indicar o driver
 ![alt text](asset/image-77.png)
 ![alt text](asset/image-78.png)
 
+- network connect "rede" "container"
+Conecta manualmente um container a uma rede
+![alt text](asset/image-99.png)
+
 - rm "nome"
 remove uma rede
 ![alt text](asset/image-79.png)
@@ -44,3 +48,20 @@ CREATE DATABASE "nome_db"
 ![alt text](asset/image-89.png)
 ![alt text](asset/image-90.png)  
 exit -> sai do terminal mysql
+
+## Conexão entre containers
+
+Crie um container mysql  
+Crie um container de aplicação  
+Crie uma network
+![alt text](asset/image-94.png)
+
+- rodando containers  
+Mysql container  
+-e MYSQL_ALLOW_EMPTY_PASSWORD=True -> variavel de ambiente que permite senhas vazias  
+![alt text](asset/image-95.png)
+flask container  
+![alt text](asset/image-96.png)
+Execução da conexão
+![alt text](asset/image-97.png)
+![alt text](asset/image-98.png)
