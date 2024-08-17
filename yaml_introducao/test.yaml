@@ -10,3 +10,9 @@ objeto:
   # exemplos de none
   nulo1: ~
   nulo2: null
+
+  # dados booleanos
+  ver1: True
+  ver2: on
+  fal1: False
+  fal2: off
