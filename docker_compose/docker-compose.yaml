@@ -1,0 +1,47 @@
+# wordpress + sql compose file | DESATUALIZADO
+
+# versao do compose
+version: '3.3'
+
+# serviços
+services:
+
+  # container sql
+  db:
+    # img base
+    image: mysql:5.7
+    # volumes
+    volumes:
+      - db_data:/var/lib/mysql
+    # salvando alterações automaticamente
+    restart: always
+    # variaveis de ambiente
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: glauco
+      MYSQL_PASSWORD: secret
+
+  # container wordpress
+  wordpress:
+    # dependencias necessárias do container
+    depends_on:
+      - db
+    # img base
+    image: wordpress:latest
+    # portas
+    ports:
+      - "8000:80"
+    # salvando alterações automaticamente
+    restart: always
+    # variaveis de ambiente
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: glauco
+      WORDPRESS_DB_PASSWORD: secret
+      WORDPRESS_DB_NAME: wordpress
+
+# volumes principais
+volumes:
+  # iniciando volume vazio
+  db_data: {}

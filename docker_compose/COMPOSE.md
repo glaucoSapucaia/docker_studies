@@ -1,6 +1,7 @@
 # Docker Compose
 
 ![alt text](asset/image.png)
+![alt text](asset/image-2.png)
 
 ## Tools
 
