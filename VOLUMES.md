@@ -48,3 +48,9 @@ outra opção é utilizar o caminho absoluto da pasta local
 
 para isso, copie todo o projeto
 ![alt text](asset/image-64.png)
+
+## volume create "nome"
+
+criando volumes nomeados manualmente
+![alt text](asset/image-65.png)
+![alt text](asset/image-66.png)
