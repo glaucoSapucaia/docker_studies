@@ -24,3 +24,23 @@ remove uma rede
 - container conectando a API
 simulando app python
 ![alt text](asset/image-82.png)
+
+## Conexão host
+
+![alt text](asset/image-83.png)
+![alt text](asset/image-91.png)
+![alt text](asset/image-92.png)
+![alt text](asset/image-93.png)
+
+- mysql container
+![alt text](asset/image-84.png)
+![alt text](asset/image-85.png)
+![alt text](asset/image-86.png)
+![alt text](asset/image-87.png)  
+Entre com a senha indicada no docker run  
+[comandos mysql](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/)  
+CREATE DATABASE "nome_db"  
+![alt text](asset/image-88.png)
+![alt text](asset/image-89.png)
+![alt text](asset/image-90.png)  
+exit -> sai do terminal mysql

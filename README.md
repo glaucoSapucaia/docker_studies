@@ -9,6 +9,7 @@ Estudos com Docker
 - [Docker images](https://hub.docker.com/)
 - [postman](https://www.postman.com/)
 - [data API](https://randomuser.me/api)
+- [mysql installer](https://dev.mysql.com/downloads/installer/)
 
 ## Validando Instalação
 
