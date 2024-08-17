@@ -12,9 +12,15 @@
 
 ## Rodando compose
 
-- docker-compose up
-Roda arquivo compose
+- docker-compose up/down
+executa/finaliza arquivo compose
 ![alt text](asset/image-4.png)
 ![alt text](asset/image-5.png)
 ![alt text](asset/image-6.png)
 ![alt text](asset/image-7.png)
+down
+![alt text](asset/image-9.png)
+
+- -d
+executa compose em segundo plano
+![alt text](asset/image-8.png)
