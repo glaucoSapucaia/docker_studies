@@ -1,3 +1,7 @@
 # yaml exemplo
 nome: "Glauco"
 idade: 33
+
+objeto:
+  versao: 2
+  arquivo: "exemplo.txt"
