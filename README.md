@@ -7,6 +7,8 @@ Estudos com Docker
 - [Docker Doc](https://docs.docker.com/)
 - [Opção de terminal - cmder](https://cmder.app/)
 - [Docker images](https://hub.docker.com/)
+- [postman](https://www.postman.com/)
+- [data API](https://randomuser.me/api)
 
 ## Validando Instalação
 

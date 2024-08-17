@@ -16,3 +16,11 @@ cria uma rede | use -d para indicar o driver
 - rm "nome"
 remove uma rede
 ![alt text](asset/image-79.png)
+
+## Conexão Externa
+
+![alt text](asset/image-81.png)
+
+- container conectando a API
+simulando app python
+![alt text](asset/image-82.png)
