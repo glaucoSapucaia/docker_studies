@@ -23,6 +23,10 @@ Remove containers, imagens e networks não utilizadas
 
 ![alt text](asset/image-35.png)
 
+- volume prune
+remove todos os volumes não utilizados
+![alt text](asset/image-70.png)
+
 ## stats
 
 Mostra dados quanto aos processos em andamentos, incoluindo recursos utilizados
