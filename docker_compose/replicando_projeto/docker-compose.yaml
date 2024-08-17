@@ -5,7 +5,11 @@ services:
   # container
   db:
     # minha imagem
-    image: my_sql_img
+    # image: my_sql_img
+
+    # podemos indicar a build de uma imagem no compose
+    build: ./sql/
+
     # sempre atualizar
     restart: always
     # dados sigilosos
@@ -24,7 +28,11 @@ services:
     depends_on:
       - db
     # minha imagem
-    image: my_flask_img
+    # image: my_flask_img
+
+    # podemos indicar a build de uma imagem no compose
+    build: ./flask/
+
     # portas
     ports:
       - "5000:5000"
