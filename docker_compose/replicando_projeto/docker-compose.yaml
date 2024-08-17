@@ -1,0 +1,40 @@
+# versao compose
+version: '3.3'
+
+services:
+  # container
+  db:
+    # minha imagem
+    image: my_sql_img
+    # sempre atualizar
+    restart: always
+    # dados sigilosos
+    env_file:
+      - ./config/db.env
+    # portas
+    ports:
+      - "3306:3306"
+    # minha network
+    networks:
+      - flask_network
+
+  backend:
+    # container
+    # dependencias necessaria
+    depends_on:
+      - db
+    # minha imagem
+    image: my_flask_img
+    # portas
+    ports:
+      - "5000:5000"
+    # sempre atualizar
+    restart: always
+    # minha network
+    networks:
+      - flask_network
+
+# redes
+networks:
+  flask_network:
+    driver: bridge
