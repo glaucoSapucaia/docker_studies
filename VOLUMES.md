@@ -60,3 +60,8 @@ criando volumes nomeados manualmente
 inspecionando volumes
 ![alt text](asset/image-67.png)
 ![alt text](asset/image-68.png)
+
+## volume rm "nome"
+
+removendo volumes
+![alt text](asset/image-69.png)
