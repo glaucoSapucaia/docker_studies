@@ -2,6 +2,11 @@
 nome: "Glauco"
 idade: 33
 
+# exemplo objeto
 objeto:
   versao: 2
   arquivo: "exemplo.txt"
+
+  # exemplos de none
+  nulo1: ~
+  nulo2: null
