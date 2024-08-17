@@ -17,6 +17,10 @@ cria uma rede | use -d para indicar o driver
 Conecta ou desconecta manualmente um container a uma rede
 ![alt text](asset/image-99.png)
 
+- network inspect
+obtendo dados da rede
+![alt text](asset/image-a.png)
+
 - rm "nome"
 remove uma rede
 ![alt text](asset/image-79.png)
