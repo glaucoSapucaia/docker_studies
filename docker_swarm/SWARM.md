@@ -11,7 +11,16 @@
 
 ![alt text](asset/image-2.png)
 
-## Start o docker swarm
+## comandos
 
+- start  
 Indique o id addres do node manager
 ![alt text](asset/image-3.png)
+
+- leave -f  
+força saida de um swarm
+![alt text](asset/image-4.png)
+
+- node ls
+lista nodes
+![alt text](asset/image-5.png)
