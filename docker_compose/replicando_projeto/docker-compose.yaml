@@ -38,6 +38,12 @@ services:
       - "5000:5000"
     # sempre atualizar
     restart: always
+
+    # adicionando bind mount volume
+    # path_absoluto:workdir_da_imagem
+    volumes:
+      - "C:\\Users\\glauc\\OneDrive\\Documents\\git_repos\\docker_studies\\docker_compose\\replicando_projeto\\flask:/app"
+
     # minha network
     networks:
       - flask_network

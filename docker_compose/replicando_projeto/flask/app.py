@@ -49,7 +49,7 @@ def inserthost():
     # fechando conexao
     cur.close()
 
-    return f'compose com build | Usuário -> {username}'
+    return f'Com bind mount | Usuário -> {username}'
 
 # verificando acesso do app
 if __name__ == '__main__':
