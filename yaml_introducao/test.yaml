@@ -2,8 +2,8 @@
 nome: "Glauco"
 idade: 33
 
-# exemplo objeto
-objeto:
+# exemplo objetos
+objeto1:
   versao: 2
   arquivo: "exemplo.txt"
 
@@ -16,6 +16,7 @@ objeto:
   ver2: on
   fal1: False
   fal2: off
+objeto2: {a: 1, b: 2, c: 3}
 
 # arrays | listas
 lista1: [1, 2, 3, 4, 5]
