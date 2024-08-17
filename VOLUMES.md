@@ -54,3 +54,9 @@ para isso, copie todo o projeto
 criando volumes nomeados manualmente
 ![alt text](asset/image-65.png)
 ![alt text](asset/image-66.png)
+
+## volume inspect "nome"
+
+inspecionando volumes
+![alt text](asset/image-67.png)
+![alt text](asset/image-68.png)
