@@ -43,3 +43,8 @@ verifique e altere as permissoes
 ![alt text](asset/image-62.png)
 outra opção é utilizar o caminho absoluto da pasta local
 ![alt text](asset/image-63.png)
+
+## Bind mount | atualizando projreto em tempo real
+
+para isso, copie todo o projeto
+![alt text](asset/image-64.png)

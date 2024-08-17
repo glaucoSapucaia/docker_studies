@@ -6,7 +6,7 @@
     <title>Meu app</title>
 </head>
 <body>
-    <h1>Meu app!</h1>
+    <h1>Meu app! Bind Mount</h1>
 
     <h2>Escreva sua mensagem</h2>
     <!-- form para envio de mensagens -->
