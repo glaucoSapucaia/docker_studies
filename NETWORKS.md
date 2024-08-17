@@ -13,8 +13,8 @@ cria uma rede | use -d para indicar o driver
 ![alt text](asset/image-77.png)
 ![alt text](asset/image-78.png)
 
-- network connect "rede" "container"
-Conecta manualmente um container a uma rede
+- network connect | disconnect "rede" "container"
+Conecta ou desconecta manualmente um container a uma rede
 ![alt text](asset/image-99.png)
 
 - rm "nome"
