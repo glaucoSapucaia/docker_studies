@@ -24,3 +24,7 @@ down
 - -d
 executa compose em segundo plano
 ![alt text](asset/image-8.png)
+
+## Variaveis de ambiente
+
+![alt text](asset/image-10.png)

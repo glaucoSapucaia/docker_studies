@@ -16,11 +16,15 @@ services:
     # salvando alterações automaticamente
     restart: always
     # variaveis de ambiente
-    environment:
-      MYSQL_ROOT_PASSWORD: wordpress
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: glauco
-      MYSQL_PASSWORD: secret
+    # env_file -> importamos dados sensiveis sem expolos
+    env_file:
+      - ./config/db.env
+    # abaixo, expomos dados sensiveis do projeto
+    # environment:
+    #   MYSQL_ROOT_PASSWORD: CHANGE_ME
+    #   MYSQL_DATABASE: CHANGE_ME
+    #   MYSQL_USER: CHANGE_ME
+    #   MYSQL_PASSWORD: CHANGE_ME
 
   # container wordpress
   wordpress:
@@ -35,11 +39,14 @@ services:
     # salvando alterações automaticamente
     restart: always
     # variaveis de ambiente
-    environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: glauco
-      WORDPRESS_DB_PASSWORD: secret
-      WORDPRESS_DB_NAME: wordpress
+    env_file:
+      - ./config/wp.env
+    # abaixo, expomos dados sensiveis do projeto
+    # environment:
+    #   WORDPRESS_DB_HOST: CHANGE-ME
+    #   WORDPRESS_DB_USER: CHANGE-ME
+    #   WORDPRESS_DB_PASSWORD: CHANGE-ME
+    #   WORDPRESS_DB_NAME: CHANGE-ME
 
 # volumes principais
 volumes:

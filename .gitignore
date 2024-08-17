@@ -1,2 +1,4 @@
 node_project/node_modules/
 yaml_introducao/venv/
+docker_compose/config/db.env
+docker_compose/config/wp.env
