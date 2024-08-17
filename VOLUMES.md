@@ -41,3 +41,5 @@ execute o /bin/bash do container
 verifique e altere as permissoes
 ![alt text](asset/image-61.png)
 ![alt text](asset/image-62.png)
+outra opção é utilizar o caminho absoluto da pasta local
+![alt text](asset/image-63.png)
