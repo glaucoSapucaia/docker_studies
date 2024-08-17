@@ -55,6 +55,12 @@ criando volumes nomeados manualmente
 ![alt text](asset/image-65.png)
 ![alt text](asset/image-66.png)
 
+## -v volume:/data:ro
+
+ro: -> read only | cria volumes apenas para leitura
+![alt text](asset/image-71.png)
+![alt text](asset/image-72.png)
+
 ## volume inspect "nome"
 
 inspecionando volumes
