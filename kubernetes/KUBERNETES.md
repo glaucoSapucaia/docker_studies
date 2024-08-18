@@ -3,6 +3,7 @@
 ![alt text](asset/image.png)
 ![alt text](asset/image-1.png)
 ![alt text](asset/image-2.png)
+![alt text](asset/image-14.png)
 
 ## Tools
 
@@ -60,3 +61,23 @@ retorna pods e seus detalhes
 - config view  
 retorna informações da infraestrutura (kubernetes/minikube)
 ![alt text](asset/image-13.png)
+
+### Services
+
+#### --type
+
+LoadBalancer -> aplica o servilço para TODOS os PODS  
+
+- expose deployment "nome" --type="tipo" --port="port"  
+cria serviço expondo container ao mundo externo
+![alt text](asset/image-15.png)
+
+- minikube service "nome"  
+gera IP Address para acessar service dos pods  
+o nome do serviço criado é igual ao do deployment  
+existem várias formas, dependendo do serviço utilizado (minikube, AWS, Azure, etc)  
+![alt text](asset/image-16.png)
+
+- get services | describe services/"nome"
+retornas services e seus detalhes
+![alt text](asset/image-17.png)
