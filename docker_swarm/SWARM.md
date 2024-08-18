@@ -23,9 +23,18 @@ Indique o ip addres do node manager
 força saida de um swarm
 ![alt text](asset/image-4.png)
 
+- docker node rm "node" | -f  
+remove node do swarm já desabilitado com swarm leave  
+para retorna com um node, pode ser necessário reiniciar toda a infraestrutura
+![alt text](asset/image-17.png)
+
 - node ls
 lista nodes
 ![alt text](asset/image-5.png)
+
+- docker info  
+retorna inforamções gerais de docker (configurações)
+![alt text](asset/image-16.png)
 
 ## node como worker
 
@@ -48,6 +57,10 @@ listando serviços
 - docker service rm "servico"  
 encerra serviços
 ![alt text](asset/image-10.png)
+
+- service inspect "service"  
+retorna informações sobre o serviço
+![alt text](asset/image-18.png)
 
 - --replicas | tasks  
 Indica qtd de replicas para nodes
