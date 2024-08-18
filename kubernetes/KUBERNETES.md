@@ -126,3 +126,14 @@ encerra serviço
 
 ![alt text](asset/image-30.png)
 ![alt text](asset/image-31.png)
+
+- apply -f "file.yaml"  
+executa o arqvuio declarativo
+![alt text](asset/image-32.png)
+![alt text](asset/image-33.png)
+![alt text](asset/image-34.png)
+![alt text](asset/image-35.png)
+
+- delete -f "file.yaml"
+encerra o deployment
+![alt text](asset/image-36.png)

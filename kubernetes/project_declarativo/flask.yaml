@@ -5,7 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 # informações do arquivo
-metadada:
+metadata:
   name: flask-app-deployment
 
 # especificações do arquivo
