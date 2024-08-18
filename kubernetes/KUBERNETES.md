@@ -56,6 +56,10 @@ podemos também indicar um numero menor de replicas do que há, assim,
 realizamos o SCALE DOWN da aplicação
 ![alt text](asset/image-18.png)
 
+- delete deployment "nome"  
+exclui um deployment e interrompe todos os PODs
+![alt text](asset/image-29.png)
+
 #### Atualizando imagens
 
 É necessário incluir uma tag na build para diferenciar as versões  
@@ -113,3 +117,7 @@ existem várias formas, dependendo do serviço utilizado (minikube, AWS, Azure, 
 - get services | describe services/"nome"
 retornas services e seus detalhes
 ![alt text](asset/image-17.png)
+
+- delete service "nome"  
+encerra serviço
+![alt text](asset/image-28.png)
