@@ -1,0 +1,23 @@
+# versao do app
+apiVersion: v1
+
+# tipo de arquivo
+kind: Service
+
+# infos
+metadata:
+  name: flask-service
+
+# especificacoes
+spec:
+  # selecionando deployment para o serviço
+  selector:
+    app: flask-app
+  # portas
+  ports:
+    - protocol: 'TCP'
+      port: 5000
+      targetPort: 5000
+  # tipo driver
+  type: LoadBalancer
+  
