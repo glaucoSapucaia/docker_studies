@@ -60,11 +60,27 @@ realizamos o SCALE DOWN da aplicação
 
 É necessário incluir uma tag na build para diferenciar as versões  
 Faça o push (docker hub) da nova imagem:tag  
-Pegue o nome do container/pod do node manager no dashboard  
+Pegue o nome do container/pod no dashboard  
 ![alt text](asset/image-20.png)
 
 - set image deployment/"nome_deployment" "nome_container"="imagem"  
 ![alt text](asset/image-21.png)
+
+#### Desfazendo ações erradas
+
+Atualizando imagem como nome errado  
+![alt text](asset/image-22.png)
+![alt text](asset/image-23.png)
+![alt text](asset/image-25.png)
+
+- rollout status deployment/"nome"  
+verifica alterações
+![alt text](asset/image-24.png)
+
+- rollout undo deployment/"nome"  
+desfaz alterações
+![alt text](asset/image-26.png)
+![alt text](asset/image-27.png)
 
 ### Pods
 
