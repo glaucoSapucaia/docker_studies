@@ -58,9 +58,10 @@ listando serviços
 encerra serviços
 ![alt text](asset/image-10.png)
 
-- service inspect "service"  
+- service inspect "service" e service ps  
 retorna informações sobre o serviço
 ![alt text](asset/image-18.png)
+![alt text](asset/image-19.png)
 
 - --replicas | tasks  
 Indica qtd de replicas para nodes
