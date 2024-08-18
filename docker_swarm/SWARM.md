@@ -6,6 +6,7 @@
 ![alt text](asset/image-20.png)
 ![alt text](asset/image-24.png)
 ![alt text](asset/image-26.png)
+![alt text](asset/image-28.png)
 
 ## Tools
 
@@ -105,3 +106,13 @@ sobe serviço docker-compose
 - service scale "servico"="replicas"  
 cria replicas do serviço (escala aplicação)
 ![alt text](asset/image-23.png)
+
+## Networks
+
+O swarm utiliza o driver "overlay"
+![alt text](asset/image-29.png)
+![alt text](asset/image-30.png)
+
+- --network-add  
+adiciona network a um container
+![alt text](asset/image-31.png)
