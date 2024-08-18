@@ -28,3 +28,11 @@ encerra minikube
 obtendo informações gerais do projeto | kubernetes painel
 ![alt text](asset/image-5.png)
 ![alt text](asset/image-6.png)
+
+## Project
+
+- build e push para docker hub  
+nomeie já para utilizar o Docker Hub
+![alt text](asset/image-7.png)
+![alt text](asset/image-8.png)
+![alt text](asset/image-9.png)
