@@ -31,11 +31,15 @@ obtendo informações gerais do projeto | kubernetes painel
 
 ## Project
 
+### Build e push Dokcker file (docker hub)
+
 - build e push para docker hub  
 nomeie já para utilizar o Docker Hub
 ![alt text](asset/image-7.png)
 ![alt text](asset/image-8.png)
 ![alt text](asset/image-9.png)
+
+### Deployments
 
 - deployment | kubectl create deployment "nome" --image="image"  
 criando deploy do projeto via kubernetes
@@ -44,3 +48,15 @@ criando deploy do projeto via kubernetes
 - get deployents | describe deployments
 retorna deployments e seus detalhes
 ![alt text](asset/image-11.png)
+
+### Pods
+
+- get pods | describe pods  
+retorna pods e seus detalhes
+![alt text](asset/image-12.png)
+
+### Kubernetes Config
+
+- config view  
+retorna informações da infraestrutura (kubernetes/minikube)
+![alt text](asset/image-13.png)
