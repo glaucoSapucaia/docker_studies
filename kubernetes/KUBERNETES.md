@@ -50,6 +50,12 @@ criando deploy do projeto via kubernetes
 retorna deployments e seus detalhes
 ![alt text](asset/image-11.png)
 
+- scale deployments/"nome" --replicas="numero"
+escalando aplicanção com pods  
+podemos também indicar um numero menor de replicas do que há, assim,  
+realizamos o SCALE DOWN da aplicação
+![alt text](asset/image-18.png)
+
 ### Pods
 
 - get pods | describe pods  
@@ -81,3 +87,9 @@ existem várias formas, dependendo do serviço utilizado (minikube, AWS, Azure, 
 - get services | describe services/"nome"
 retornas services e seus detalhes
 ![alt text](asset/image-17.png)
+
+### Replicas
+
+- get rs  
+retorna os status das replicas
+![alt text](asset/image-19.png)
