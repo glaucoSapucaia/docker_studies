@@ -126,6 +126,7 @@ encerra serviço
 
 ![alt text](asset/image-30.png)
 ![alt text](asset/image-31.png)
+![alt text](asset/image-41.png)
 
 ### Deployment
 
@@ -150,3 +151,20 @@ obtenha o ip address para acesso (minikube)
 - delete -f "file-service.yaml"  
 encerra serviço
 ![alt text](asset/image-38.png)
+
+### Atualizando imagem
+
+Após alterações, faça o build novamente  
+Faça o push para o docker hub  
+Atualize o arquivo de deployment .yaml  
+Faça p apply -f com o arquivo .yaml de deploy alterado  
+![alt text](asset/image-39.png)
+![alt text](asset/image-40.png)
+
+### Unindo arquivos yaml
+
+Separe o conteudo do arquivo .yaml com "---"
+
+- apply -f "file.yaml"  
+Executa o arquivo global
+![alt text](asset/image-42.png)
