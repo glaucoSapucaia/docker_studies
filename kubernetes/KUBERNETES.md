@@ -56,6 +56,16 @@ podemos também indicar um numero menor de replicas do que há, assim,
 realizamos o SCALE DOWN da aplicação
 ![alt text](asset/image-18.png)
 
+#### Atualizando imagens
+
+É necessário incluir uma tag na build para diferenciar as versões  
+Faça o push (docker hub) da nova imagem:tag  
+Pegue o nome do container/pod do node manager no dashboard  
+![alt text](asset/image-20.png)
+
+- set image deployment/"nome_deployment" "nome_container"="imagem"  
+![alt text](asset/image-21.png)
+
 ### Pods
 
 - get pods | describe pods  
