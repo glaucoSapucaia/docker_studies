@@ -1,0 +1,2 @@
+node1 (MANAGER) JOIN TOKEN (NÃO DEIXE QUEBRA DE LINHAS)
+docker swarm join --token SWMTKN-1-4lk8y9jvnfrrvlx5quo7db2rf38k2l728r1cp6jdf1076lywlc-a2lawfwiyc400xg0us028zwgu 192.168.0.8:2377

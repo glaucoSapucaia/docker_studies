@@ -14,7 +14,7 @@
 ## comandos
 
 - start  
-Indique o id addres do node manager
+Indique o ip addres do node manager
 ![alt text](asset/image-3.png)
 
 - leave -f  
@@ -24,3 +24,9 @@ força saida de um swarm
 - node ls
 lista nodes
 ![alt text](asset/image-5.png)
+
+## node como worker
+
+Use a chave token do node manager
+![alt text](asset/image-6.png)
+![alt text](asset/image-7.png)
