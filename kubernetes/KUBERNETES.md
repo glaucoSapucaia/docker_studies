@@ -121,3 +121,8 @@ retornas services e seus detalhes
 - delete service "nome"  
 encerra serviço
 ![alt text](asset/image-28.png)
+
+## Modo Declarativo
+
+![alt text](asset/image-30.png)
+![alt text](asset/image-31.png)
