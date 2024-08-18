@@ -50,7 +50,6 @@ criando deploy do projeto via kubernetes
 retorna deployments e seus detalhes
 ![alt text](asset/image-11.png)
 
-<<<<<<< HEAD
 - scale deployments/"nome" --replicas="numero"
 escalando aplicanção com pods  
 podemos também indicar um numero menor de replicas do que há, assim,  
@@ -67,8 +66,6 @@ Pegue o nome do container/pod do node manager no dashboard
 - set image deployment/"nome_deployment" "nome_container"="imagem"  
 ![alt text](asset/image-21.png)
 
-=======
->>>>>>> parent of 3532c28 (Escalando e fazendo scale down de aplicação | manipulando e obtendo detalhes de replicas)
 ### Pods
 
 - get pods | describe pods  
