@@ -1,0 +1,30 @@
+# versao para o porjeto | veja nas respectivas documentações
+apiVersion: apps/v1
+
+# tipo do arqvuio (função)
+kind: Deployment
+
+# informações do arquivo
+metadada:
+  name: flask-app-deployment
+
+# especificações do arquivo
+spec:
+  replicas: 4
+  # nomeando especificações
+  selector:
+    # definindo label
+    matchLabels:
+      app: flask-app
+  # template -> forma de execução
+  template:
+    # informações da spec
+    metadata:
+      # definindo label
+      labels:
+        app: flask-app
+    # especificações do template
+    spec:
+      containers:
+        - name: flask
+          image: glaucosapucaia/flask-kub-project:v2
