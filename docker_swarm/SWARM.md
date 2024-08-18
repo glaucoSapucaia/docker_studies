@@ -3,6 +3,8 @@
 ![alt text](asset/image.png)
 ![alt text](asset/image-1.png)
 ![alt text](asset/image-12.png)
+![alt text](asset/image-20.png)
+![alt text](asset/image-24.png)
 
 ## Tools
 
@@ -13,7 +15,7 @@
 
 ![alt text](asset/image-2.png)
 
-## comandos
+## comandos Nodes
 
 - start  
 Indique o ip addres do node manager
@@ -70,3 +72,25 @@ Indica qtd de replicas para nodes
 - derrubando container worker (Manager o reinicia)  
 ![alt text](asset/image-13.png)
 ![alt text](asset/image-14.png)
+
+## Docker compose
+
+- vim "arquivo"  
+cria arquivos via terminal | tecle "i" para iniciar modo de edição
+![alt text](asset/image-21.png)
+
+esc, :, x, ! => salvar arquivo
+
+- -c "composer_file"  
+sobe serviço docker-compose
+![alt text](asset/image-22.png)
+
+- service scale "servico"="replicas"  
+cria replicas do serviço (escala aplicação)
+![alt text](asset/image-23.png)
+
+## Status de nodes
+
+- update --availability "status" "node"  
+atualiza status de node
+![alt text](asset/image-25.png)
