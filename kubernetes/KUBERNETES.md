@@ -127,6 +127,8 @@ encerra serviço
 ![alt text](asset/image-30.png)
 ![alt text](asset/image-31.png)
 
+### Deployment
+
 - apply -f "file.yaml"  
 executa o arqvuio declarativo
 ![alt text](asset/image-32.png)
@@ -134,6 +136,17 @@ executa o arqvuio declarativo
 ![alt text](asset/image-34.png)
 ![alt text](asset/image-35.png)
 
-- delete -f "file.yaml"
+- delete -f "file.yaml"  
 encerra o deployment
 ![alt text](asset/image-36.png)
+
+### Service
+
+- apply -f "file-service.yaml"  
+Execute o serviço de modo declarativo  
+obtenha o ip address para acesso (minikube)
+![alt text](asset/image-37.png)
+
+- delete -f "file-service.yaml"  
+encerra serviço
+![alt text](asset/image-38.png)
