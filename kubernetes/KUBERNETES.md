@@ -36,3 +36,11 @@ nomeie já para utilizar o Docker Hub
 ![alt text](asset/image-7.png)
 ![alt text](asset/image-8.png)
 ![alt text](asset/image-9.png)
+
+- deployment | kubectl create deployment "nome" --image="image"  
+criando deploy do projeto via kubernetes
+![alt text](asset/image-10.png)
+
+- get deployents | describe deployments
+retorna deployments e seus detalhes
+![alt text](asset/image-11.png)
