@@ -5,6 +5,7 @@
 ![alt text](asset/image-12.png)
 ![alt text](asset/image-20.png)
 ![alt text](asset/image-24.png)
+![alt text](asset/image-26.png)
 
 ## Tools
 
@@ -48,6 +49,18 @@ Use a chave token do node manager
 recupera token do manager
 ![alt text](asset/image-15.png)
 
+## Availability de nodes
+
+- update --availability "status" "node"  
+atualiza status de node
+![alt text](asset/image-25.png)
+
+- "drain"  
+faz com que o node não receba mais tasks
+
+- "active"  
+availability padrão | funcional
+
 ## Adicionando e manipulando serviços e containers
 
 ![alt text](asset/image-8.png)
@@ -73,6 +86,10 @@ Indica qtd de replicas para nodes
 ![alt text](asset/image-13.png)
 ![alt text](asset/image-14.png)
 
+- service update | atualiza serviços  
+atualizando imagem | APENAS PARA NODE com availability ACTIVE
+![alt text](asset/image-27.png)
+
 ## Docker compose
 
 - vim "arquivo"  
@@ -88,9 +105,3 @@ sobe serviço docker-compose
 - service scale "servico"="replicas"  
 cria replicas do serviço (escala aplicação)
 ![alt text](asset/image-23.png)
-
-## Status de nodes
-
-- update --availability "status" "node"  
-atualiza status de node
-![alt text](asset/image-25.png)
